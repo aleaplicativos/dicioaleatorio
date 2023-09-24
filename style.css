@@ -8,12 +8,21 @@
 
 h1 {
   font-size: 3rem;
+  margin-bottom: 20px; /* Adicione um espaço extra abaixo do título */
 }
 
-button {
-  padding: 2rem;
+button.search-button,
+button.random-button {
+  padding: 10px 20px; /* Reduz a altura dos botões e mantém a largura */
   font-size: 1.5rem;
-  margin: 1.5rem 0;
+  margin: 10px 0; /* Aumenta o espaço vertical entre os botões */
+}
+
+.search-input {
+  height: 50px; /* Aumenta a altura do campo de digitar */
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
 
 #palavra-container {
